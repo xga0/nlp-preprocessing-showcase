@@ -8,7 +8,7 @@ This repository demonstrates the effectiveness of three specialized text preproc
 
 **[Interactive Kaggle Notebook](nlp-preprocessing-showcase.ipynb)** - Complete walkthrough with live code execution, detailed explanations, and benchmark results achieving 97.5% validation accuracy.
 
-🔗 **[View on Kaggle](https://www.kaggle.com/code/sean49/nlp-preprocessing-showcase)** - Run the notebook directly in Kaggle's environment with GPU acceleration.
+**[View on Kaggle](https://www.kaggle.com/code/sean49/nlp-preprocessing-showcase)** - Run the notebook directly in Kaggle's environment with GPU acceleration.
 
 ## Motivation
 
