@@ -6,6 +6,8 @@ This repository demonstrates the effectiveness of three specialized text preproc
 - **[emoticon-fix](https://github.com/xga0/emoticon_fix)** v0.3.0 - Emoticon normalization  
 - **[contraction-fix](https://github.com/xga0/contraction_fix)** v0.2.2 - Contraction expansion
 
+**[Interactive Kaggle Notebook](nlp-preprocessing-showcase.ipynb)** - Complete walkthrough with live code execution, detailed explanations, and benchmark results achieving 97.5% validation accuracy.
+
 ## Motivation
 
 Standard NLP preprocessing often relies on heavyweight libraries (NLTK, spaCy) or basic regex patterns. These three packages provide lightweight, specialized solutions for common text normalization tasks. This project benchmarks their integration in a complete ML pipeline using the [Twitter Entity Sentiment Analysis](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis) dataset (74,682 training samples, 4 classes).
@@ -93,6 +95,18 @@ python demo.py
 
 Shows package integration and performance comparison across 1000 texts.
 
+### Interactive Jupyter Notebook
+```bash
+jupyter notebook nlp-preprocessing-showcase.ipynb
+```
+
+Complete walkthrough with:
+- Step-by-step preprocessing demonstration
+- Model training with live progress tracking
+- Performance visualization and benchmarks
+- Attention mechanism analysis
+- Package comparison and timing results
+
 ## Key Results
 
 ### Model Performance
@@ -122,15 +136,16 @@ Total:          0.0977s (10,236 texts/sec)
 
 ## File Structure
 ```
-├── data_processor.py      # Package integration and preprocessing
-├── model.py              # PyTorch LSTM implementation
-├── train.py              # Training pipeline
-├── inference.py          # Prediction interface
-├── demo.py               # Package demonstration
-├── test_setup.py         # Environment validation
-├── config.py             # Hyperparameters
-├── requirements.txt      # Exact package versions
-└── install.sh            # Setup automation
+├── data_processor.py                    # Package integration and preprocessing
+├── model.py                            # PyTorch LSTM implementation
+├── train.py                            # Training pipeline
+├── inference.py                        # Prediction interface
+├── demo.py                             # Package demonstration
+├── test_setup.py                       # Environment validation
+├── config.py                           # Hyperparameters
+├── requirements.txt                    # Exact package versions
+├── install.sh                          # Setup automation
+└── nlp-preprocessing-showcase.ipynb    # Interactive Kaggle notebook
 ```
 
 ## Dependencies
